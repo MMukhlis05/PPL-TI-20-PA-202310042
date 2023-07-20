@@ -1,0 +1,365 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters
+,,,,,,,,,,,,,,,,,,,,2,,"Admin Page",1
+,,,,,,,,,,,,,,,,,,,,9,,"PIM Page",1
+,,,,,,,,,,,,,,,,,,,,4,,"Leave Page",1
+,,,,,,,,,,,,,,,,,,,,12,,"Time Page",1
+,,,,,,,,,,,,,,,,,,,,13,,"Recruitment Page",1
+,,,,,,,,,,,,,,,,,,,,5,,"My Info Page",1
+,,,,,,,,,,,,,,,,,,,,3,,"Directory Page",1
+,,,,,,,,,,,,,,,,,,,,8,,"Maintenance Page",1
+,,,,,,,,,,,,,,,,,,,,6,,"Claim Page",1
+2,"TC Navigate Admin","Navigate to Admin Page","Login Success as Admin","Access Admin Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Admin Button
+","1. Access Admin Page
+","1. 
+",,,2,,"Admin Page",,
+3,"TC Navigate Nationalities Submenu","Navigate to Nationalities Submenu","Login Success as and Admin Access Admin Page","Access Nationalities Submenu",,high,major,functional,undefined,is-not-automated,actual,no,e2e,classic,"1. Click Nationalities Button
+","1. Navigate to Nationalities Submenu
+","1. 
+",,,2,,"Admin Page",,
+4,"TC Add New Nationality","Adding New Nationality","Logged in as Admin, Access Nationality Submenu in Admin Page","Access Add Nationality Page",,high,normal,usability,positive,is-not-automated,actual,no,unknown,classic,"1. Click Add Button
+2. Set New Nationality Name
+3. Click Save Button
+","1. Access Save Nationality Page
+2. 
+3. Save new Nationality and Move to Nationality Page
+","1. 
+2. Aaaan
+3. 
+",,,2,,"Admin Page",,
+5,"TC Edit Nationality","Editing Nationality","Logged in as Admin, Access Nationality Submenu in Admin Page","Edited Existing Nationality Name",,high,normal,usability,positive,is-not-automated,actual,no,unknown,classic,"1. Click Edit Button
+2. Set new Edited Nationality Name
+3. Click Save Button
+","1. Access Edit Nationality Page
+2. 
+3. Edited Selected Nationality and Move to Nationality Page
+","1. 
+2. Aaaaan
+3. 
+",,,2,,"Admin Page",,
+6,"TC Delete Nationality","Deleting Nationality","Logged in as Admin, Access Nationality Submenu in Admin Page","Deleted Selected Nationality",,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Click Delete Buttom
+2. Click Yes Button
+","1. Confirmation Modal Appeared
+2. Deleted Selected Nationality
+","1. 
+2. 
+",,,2,,"Admin Page",,
+7,"TC Navigate to Directory","Navigate to Admin Page","Login Success as Admin","Access Directory Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Directory Button
+","1. Access Directory Page
+","1. 
+",,,3,,"Directory Page",,
+8,"TC Search Recorded Directory","Searching Recorded Directory","Login Success as Admin and Access Directory Page",,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Set Employee Name
+2. Set Job TItle
+3. Set Location
+4. Click Search Button
+","1. 
+2. 
+3. 
+4. Show the Searched Recorded Directory
+","1. Orange Test
+2. 
+3. 
+4. 
+",,,3,,"Directory Page",,
+9,"TC View Selected Directory","See Selected Recorded Directory","Login Success as Admin and Access Directory Page","Sidebar of Recorded Directory Appear",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Recorded Directory
+","1. Show Clicked Directory on Sidebar
+","1. 
+",,,3,,"Directory Page",,
+10,"TC Navigate to Leave","Navigate to LEave Page","Login Success as Admin","Access Leave Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. CLick Leave Button
+","1. Access Leave Page
+","1. 
+",,,4,,"Leave Page",,
+11,"TC Navigate to Apply Submenu","See Apply Leave","Login Success as Admin and Access Leave Page","Access Apply Leave Page",,high,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Apply Submenu Button
+","1. Access Apply Leave Page
+","1. 
+",,,4,,"Leave Page",,
+12,"TC Assign New Leave","Assign New Lave","Login Success Access Assign Leave Submenu Page","Assigned a New Leave",,high,major,usability,positive,is-not-automated,actual,no,e2e,classic,"1. Set Employee Name
+2. Select Leave Type
+3. Set From and To Leave Date
+4. Add Comments
+5. Click Assign Button
+","1. 
+2. 
+3. 
+4. 
+5. Assigned A New Leave
+","1. Orange Testt
+2. 
+3. 
+4. 
+5. 
+",,,4,,"Leave Page",,
+13,"TC Navigate to My Info","Accesssing My Info Page","Login Success","Access My Info Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click My Info Button
+","1. Access My Info Page
+","1. 
+",,,5,,"My Info Page",,
+14,"TC Navigate to Job Submenu","Access Job Submenu","Login Success as Admin and Access My Info Page","Access Job Submenu",,low,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Job Submenu
+","1. Access Job Submenu
+","1. 
+",,,5,,"My Info Page",,
+15,"TC Navigate to Assign Leave Submenu",,"Login Success as Admin and Access Leave Page","Access Assign Leave Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Assign Leave Submenu
+","1. Access Assign Leave Page
+","1. 
+",,,4,,"Leave Page",,
+16,"TC Navigate to Salary Submenu","Access Salary Submenu","Login Success as Admin and Access My Info Page","Access Salary Submenu",,low,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Salary Submenu
+","1. Access Salary Submenu
+","1. 
+",,,5,,"My Info Page",,
+17,"TC Navigate  to Tax  Exemptions Submenu","Access Tax Submenu","Login Success as Admin and Access My Info Page","Access Tax Submenu",,low,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Tax Exemptions Submenu
+","1. Access Tax Exemptions Submenu
+","1. 
+",,,5,,"My Info Page",,
+18,"TC Navigate to Report-to Submenu","Access Report-to Submenu","Login Success as Admin and Access My Info Page","Access Report-to Submenu",,low,normal,functional,undefined,is-not-automated,actual,no,e2e,classic,"1. Click Report-to Submenu
+","1. Click Report-to Submenu
+","1. 
+",,,5,,"My Info Page",,
+19,"TC Navigate to Claim","Access Claim Page","Login Success","Access Claim Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Claim Button
+","1. Access Claim Page
+","1. 
+",,,6,,"Claim Page",,
+20,"TC Navigate to Configuration Events","Access Configurations Events Page","Login Success and Access Claim Page","Access Configurations Events Page",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Configuration Button
+2. Click Events
+","1. List Submenu Appear
+2. Access Configuration Events Page
+","1. 
+2. 
+",,,6,,"Claim Page",,
+22,"TC Search Events","Search Events","Access Configurations Events Page","Get Searched Events",,low,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Set Event Name
+2. Set Status
+3. Click Search Button
+","1. 
+2. 
+3. Show Search Result
+","1. 
+2. 
+3. 
+",,,6,,"Claim Page",,
+23,"TC Add New Events","Add New Events","Access Configurations Events Page","Added New Events",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Add Button
+2. set Name
+3. set Description
+4. click Save Button
+","1. Access saveEvents Page
+2. 
+3. 
+4. Saved New Events
+","1. 
+2. 
+3. 
+4. 
+",,,6,,"Claim Page",,
+24,"TC Edit Events","Edit Events","Access Configurations Events Page","Edited Events",,low,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Edit Events Button
+2. edit Name
+3. edit Description
+4. Click Save Button
+","1. Access Edit Events Page
+2. 
+3. 
+4. Edited Events
+","1. 
+2. 
+3. 
+4. 
+",,,6,,"Claim Page",,
+25,"TC Delete Events","Delete Events","Access Configurations Events Page","Deleted Events",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Select and Click Delete Button
+2. Click Yes Button
+","1. Confirmation Modal Appear
+2. Deleted Event
+","1. 
+2. 
+",,,6,,"Claim Page",,
+28,"TC Navigate to Configurations Expense Texts","Access Configuration Expense Texts","Login Success and Access Claim Page","Access Configuration Expense Texts",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Configuration Button
+2. Click Expense Texts
+","1. List Submenu Appear
+2. Access Expense Texts Page
+","1. 
+2. 
+",,,6,,"Claim Page",,
+29,"TC Search Expense","Search Expense","Access Configurations Expense Page","Get Searched Expense",,low,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Set Expense Name
+2. Set Status
+3. Click Search Button
+","1. 
+2. 
+3. Show Search Result
+","1. 
+2. 
+3. 
+",,,6,,"Claim Page",,
+30,"TC Add New Expense","Add New Expense","Access Configurations Expense Types Page","Added New Expense",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Add Button
+2. set Name
+3. set Description
+4. click Save Button
+","1. Access saveExpense Page
+2. 
+3. 
+4. Saved New Expense
+","1. 
+2. 
+3. 
+4. 
+",,,6,,"Claim Page",,
+31,"TC Edit Expense","Edit Expense","Access Configurations Expense Page","Edited Expense",,low,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Edit Expense Button
+2. edit Name
+3. edit Description
+4. Click Save Button
+","1. Access Edit Expense Page
+2. 
+3. 
+4. Edited Expense
+","1. 
+2. 
+3. 
+4. 
+",,,6,,"Claim Page",,
+32,"TC Delete Expense","Delete Expense","Access Configurations Expense Page","Deleted Expense",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Select and Click Delete Button
+2. Click Yes Button
+","1. Confirmation Modal Appear
+2. Deleted Expense
+","1. 
+2. 
+",,,6,,"Claim Page",,
+33,"TC Navigate to Maintenance","Access Maintenance","Login Success as Admin","Access Maintenance",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Maintenance Button
+2. set Password Login Admin
+3. Click Confirm Button
+","1. Login Admin Modal Appear
+2. 
+3. Access Maintenance Page
+","1. 
+2. 
+3. 
+",,,8,,"Maintenance Page",,
+34,"TC Navigate Purge Employee Records","Access Purge Employee Records Page","Access Maintenance Page","Access Purge Employee Records Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. click Purge Records Button
+2. click Employee Records Button
+","1. List Submenu Appear
+2. Access Employee Records Page
+","1. 
+2. 
+",,,8,,"Maintenance Page",,
+35,"TC Navigate Purge Candidate Records","Access Purge Candidate Records Page","Access Maintenance Page","Access Purge Candidate Records Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. click Purge Records Button
+2. click Candidate Records Submenun
+","1. List Submenu Appear
+2. Access Candidate Records Page
+","1. 
+2. 
+",,,8,,"Maintenance Page",,
+36,"TC Navigate to PIM","Access PIM Page","Logged in Success","Access PIM Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click PIM Button
+","1. Access PIM Page
+","1. 
+",,,9,,"PIM Page",,
+40,"TC Navigate to Add Employee Submenu","Access Add Employee Page","Access PIM Page","Access Add Employee Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Add Employee Button
+","1. Access Add Employee Page
+","1. 
+",,,9,,"PIM Page",,
+43,"TC Add New Employee","Add New Employee","Access Add Employee Page","Add New Employee",,medium,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. set Employee First Name
+2. set Employee Middle Name
+3. set Employee Last Name
+4. set Employee Id
+5. set Login Details
+6. set Username
+7. set Status
+8. set Password
+9. set Confirm Password
+10. click Save Button
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. saving New Employee
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+",,,9,,"PIM Page",,
+45,"TC Navigate to Time","Access TimePage","Login Succes","Access Employee TImesheets Submenu Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Time Button
+","1. Access Time Page
+","1. 
+",,,12,,"Time Page",,
+47,"TC Search and View Timesheets of Selected Employee","View Selected Employee Timesheets","Access Time Page","View Selected Employee Timesheets",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. set Employee Name
+2. click View Button
+","1. 
+2. Show Employee Timesheets
+","1. 
+2. 
+",,,12,,"Time Page",,
+48,"TC Navigate to My Timesheets Submenu","Access My Timesheets Submenu Page","Access Time Page","Access My Timesheets Submenu Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. Click Timesheets Submenu
+2. Click My Timesheets
+","1. List Submenu Appear
+2. Access My Timesheets Page
+","1. 
+2. 
+",,,12,,"Time Page",,
+49,"TC Edit My Timesheets","Edit My TImesheets","Access My Timesheets Page","Edit My TImesheets",,medium,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. click Edit Button
+2. set Project
+3. set Activity
+4. set Timesheet Period
+5. click Save
+","1. Access Edit Timesheets Page
+2. 
+3. 
+4. 
+5. Saving Edited Timesheets
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,12,,"Time Page",,
+50,"TC Submit My Timesheets","Submit My Timesheets","Access My Timesheets Page","Submit My Timesheets",,medium,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. click Submit Button
+","1. Submitted new Timesheets
+","1. 
+",,,12,,"Time Page",,
+51,"TC Navigate to Recruitment Page","Access Recruitment Page","Login Success","Access Recruitment Page",,high,major,functional,positive,is-not-automated,actual,no,e2e,classic,"1. click Recruitment Button
+","1. Access Recruitment Page
+","1. 
+",,,13,,"Recruitment Page",,
+52,"TC Navigate to Vacancies Submenu","Access Vacancies Submenu","Access Recruitment Page","Access Vacancies Submenu",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. click Vacancies Submenu Button
+","1. Access Vacancies Submenu Page
+","1. 
+",,,13,,"Recruitment Page",,
+53,"TC Add Vacancies","Add Vacancies","Access Vacancies Submenu Page","Added New Vacancies",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. click Add
+2. set Vacancy Name
+3. set Job Title
+4. set Description
+5. set Hiring Manager
+6. set Number of Position
+7. click Save
+","1. Access Add Vacancies Page
+2. 
+3. 
+4. 
+5. 
+6. 
+7. Saving New Vacancies
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+",,,13,,"Recruitment Page",,
+54,"TC Search Vacancies","Search Vacancies","Access Vacancies Page","Search Vacancies",,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,"1. set Job Title
+2. set Vacancy
+3. set Hiring Manager
+4. set Status
+5. click Search Button
+","1. 
+2. 
+3. 
+4. 
+5. Searched Vacancies
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,13,,"Recruitment Page",,
